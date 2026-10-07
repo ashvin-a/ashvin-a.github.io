@@ -3,22 +3,33 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 const publications = [
   {
-    title: "Sample Efficient On Robot Reinforcement learning ",
-    authors: ["Ryan Gao","Ashvin Anilkumar", "William Cong", "Nicholas Corrado", "Josiah P. Hanna"],
-    venue: "Targeting ICRA",
+    title: "Reinforcement Learning from Real-Robot Interaction without High-Quality State Estimates",
+    authors: ["Ryan Gao*", "Ashvin Anilkumar*", "Nicholas Corrado", "William Cong", "Josiah Hanna"],
+    note: "*Equal contribution",
+    venue: "Submitted to IEEE International Conference on Robotics and Automation (ICRA) 2027 (under review)",
     year: "2026",
     links: {
+      pdf: "https://drive.google.com/file/d/1tALEBc4T6tcbnwl2ImejB_0LKzmhgOB8/view?usp=drive_link",
       project: "https://pages.cs.wisc.edu/~jphanna/robocup.html",
     },
   },
   {
-    title: "ChronoAgentic: A Code-based Multi-Agent World Simulator for Physically Grounded Simulation Construction",
+    title: "Informationally Decoupled Trajectory Design for Sim-to-Real System Identification",
+    authors: ["Sangwoo Shin", "Ashvin Anilkumar", "Ryan Gao", "Josiah Hanna"],
+    venue: "Submitted to IEEE International Conference on Robotics and Automation (ICRA) 2027 (under review)",
+    year: "2026",
+    links: {
+      project: "https://github.com/jsw7460/SimForge",
+    },
+  },
+  {
+    title: "Chrono Agentic: Evidence-Grounded Agents for Executable World Simulation",
     authors: ["Hongyu Wang", "Jingquan Wang", "Ashvin Anilkumar", "Bocheng Zou", "Radu Serban", "Dan Negrut"],
-    venue: "arXiv preprint",
+    venue: "arXiv:2605.14398 (under review, ICLR 2027)",
     year: "2026",
     links: {
       arxiv: "https://arxiv.org/abs/2605.14398",
-      project: "https://github.com/uwsbel",
+      project: "https://uwsbel.github.io/chrono-agentic-website/",
     },
   },
   {
@@ -39,7 +50,7 @@ function PublicationEntry({ pub }) {
       <p className="pub-authors">
         {pub.authors.map((author, i) => (
           <span key={i}>
-            {author === "Ashvin Anilkumar" ? (
+            {author.replace("*", "") === "Ashvin Anilkumar" ? (
               <span className="purple">{author}</span>
             ) : (
               author
@@ -47,6 +58,7 @@ function PublicationEntry({ pub }) {
             {i < pub.authors.length - 1 && ", "}
           </span>
         ))}
+        {pub.note && <em className="pub-note"> ({pub.note})</em>}
       </p>
       <p className="pub-venue">
         {pub.venue}{pub.year ? `, ${pub.year}` : ""}

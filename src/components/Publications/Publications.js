@@ -7,7 +7,6 @@ const publications = [
     authors: ["Ryan Gao*", "Ashvin Anilkumar*", "Nicholas Corrado", "William Cong", "Josiah Hanna"],
     note: "*Equal contribution",
     venue: "Submitted to IEEE International Conference on Robotics and Automation (ICRA) 2027 (under review)",
-    year: "2026",
     links: {
       pdf: "https://drive.google.com/file/d/1tALEBc4T6tcbnwl2ImejB_0LKzmhgOB8/view?usp=drive_link",
       project: "https://pages.cs.wisc.edu/~jphanna/robocup.html",
@@ -17,7 +16,6 @@ const publications = [
     title: "Informationally Decoupled Trajectory Design for Sim-to-Real System Identification",
     authors: ["Sangwoo Shin", "Ashvin Anilkumar", "Ryan Gao", "Josiah Hanna"],
     venue: "Submitted to IEEE International Conference on Robotics and Automation (ICRA) 2027 (under review)",
-    year: "2026",
     links: {
       project: "https://github.com/jsw7460/SimForge",
     },
@@ -26,7 +24,6 @@ const publications = [
     title: "Chrono Agentic: Evidence-Grounded Agents for Executable World Simulation",
     authors: ["Hongyu Wang", "Jingquan Wang", "Ashvin Anilkumar", "Bocheng Zou", "Radu Serban", "Dan Negrut"],
     venue: "arXiv:2605.14398 (under review, ICLR 2027)",
-    year: "2026",
     links: {
       arxiv: "https://arxiv.org/abs/2605.14398",
       project: "https://uwsbel.github.io/chrono-agentic-website/",

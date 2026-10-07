@@ -5,7 +5,7 @@ import { AiFillGithub, AiOutlineTwitter } from 'react-icons/ai';
 import { SiGooglescholar} from 'react-icons/si';
 import { FaLinkedinIn } from 'react-icons/fa';
 import on_robot_learning from '../../Assets/Projects/on-robot-learning.gif';
-import robocup from '../../Assets/Projects/robocup.jpeg';
+import robocup from '../../Assets/Projects/robocup-2026.jpg';
 import visual_odometry from '../../Assets/Projects/visual-odometry.gif';
 import obst_avoidance from '../../Assets/Projects/obstacle-avoidance.svg';
 import chrono_agentic from '../../Assets/Projects/chrono-rag.svg';

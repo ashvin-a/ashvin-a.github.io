@@ -889,18 +889,3 @@ button:focus {
   margin-bottom: 20px;
 }
 
-/* --------- */
-/* About - Research Interests */
-/* --------- */
-.research-interests-list {
-  list-style: none;
-  padding-left: 0;
-}
-
-.research-interests-list li {
-  padding: 12px 0 12px 20px;
-  border-left: 3px solid #FF6500;
-  margin-bottom: 16px;
-  font-size: 1.05em;
-  line-height: 1.6;
-}

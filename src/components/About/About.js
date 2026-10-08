@@ -31,33 +31,6 @@ function About() {
             <img src={robotimg} alt="about" className="img-fluid" style={{ maxHeight: "550px", justifyContent:"center"}}/>
           </Col>
         </Row>
-
-        <h1 className="project-heading">
-          Research <strong className="purple">Interests</strong>
-        </h1>
-        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Col md={10}>
-            <ul className="research-interests-list">
-              <li>
-                <span className="purple">Cross-Embodiment Robot Learning</span> — policy
-                adaptation and transfer across diverse embodiments, in the vein of RMA and
-                LocoFormer-style architectures.
-              </li>
-              <li>
-                <span className="purple">Robotic Arm Manipulation</span> — learning-based control
-                for dexterous, contact-rich manipulation tasks.
-              </li>
-              <li>
-                <span className="purple">Model-Based Reinforcement Learning</span> — world models
-                and their application to partially observable, sample-constrained settings.
-              </li>
-              <li>
-                <span className="purple">State Space Models</span> — in state estimation and
-                perception.
-              </li>
-            </ul>
-          </Col>
-        </Row>
       </Container>
     </Container>
   );

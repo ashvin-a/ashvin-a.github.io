@@ -8,7 +8,7 @@ const publications = [
     note: "*Equal contribution",
     venue: "Submitted to IEEE International Conference on Robotics and Automation (ICRA) 2027 (under review)",
     links: {
-      pdf: "https://drive.google.com/file/d/1tALEBc4T6tcbnwl2ImejB_0LKzmhgOB8/view?usp=drive_link",
+      arxiv: "https://arxiv.org/abs/2610.14042",
       project: "https://pages.cs.wisc.edu/~jphanna/robocup.html",
     },
   },
@@ -17,6 +17,7 @@ const publications = [
     authors: ["Sangwoo Shin", "Ashvin Anilkumar", "Ryan Gao", "Josiah Hanna"],
     venue: "Submitted to IEEE International Conference on Robotics and Automation (ICRA) 2027 (under review)",
     links: {
+      arxiv: "https://arxiv.org/abs/2610.10905",
       project: "https://github.com/jsw7460/SimForge",
     },
   },
@@ -34,9 +35,6 @@ const publications = [
     authors: ["Ashvin Anilkumar"],
     venue: "Preprint (Independent Research)",
     year: "2026",
-    links: {
-      pdf: "https://drive.google.com/file/d/1cOycChFU4y9ChY3HucPVrSV3KoPEemb_/view?usp=drive_link",
-    },
   },
 ];
 

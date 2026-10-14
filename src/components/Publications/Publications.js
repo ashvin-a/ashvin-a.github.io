@@ -24,7 +24,7 @@ const publications = [
   {
     title: "Chrono Agentic: Evidence-Grounded Agents for Executable World Simulation",
     authors: ["Hongyu Wang", "Jingquan Wang", "Ashvin Anilkumar", "Bocheng Zou", "Radu Serban", "Dan Negrut"],
-    venue: "arXiv:2605.14398 (under review, ICLR 2027)",
+    venue: "arXiv:2605.14398 (under review, International Conference on Learning Representations, ICLR 2027)",
     links: {
       arxiv: "https://arxiv.org/abs/2605.14398",
       project: "https://uwsbel.github.io/chrono-agentic-website/",

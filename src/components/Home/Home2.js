@@ -32,7 +32,7 @@ function Home2() {
                             imgPath={robocup}
                             isBlog={true}
                             title="RoboCup 2026"
-                            description="Engineered a decentralized multi-agent coordination stack using ROS 2 and deep reinforcement learning for a fleet of autonomous Booster K1s. Migrated simulation environments from Isaac Sim (PhysX) to MuJoCo, boosting training reliability by 40%, and developed a custom sim-to-real deployment pipeline that cut iterative hardware testing overhead by 20%. Advised by Prof. Josiah Hanna."
+                            description="Finished 4th in RoboCup Asia Pacific 2026, held as part of the World Humanoid Robot Games 2026. Developed the environment for low-level control policy training and spearheaded the fast walk, achieving speeds of up to 2 m/s. Advised by Prof. Josiah Hanna."
                             demoLink="https://pages.cs.wisc.edu/~jphanna/robocup.html"
                         />
                     </Col>
